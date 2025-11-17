@@ -1,150 +1,150 @@
 ﻿l_russian:
   # Startup notification localisation
-  dynamic_research_startup_title:0 "Dynamic Research Slots Initialized"
-  dynamic_research_startup_desc:0 "Dynamic Research Power is now active. Your factories will generate Research Power (RP) each day. When RP reaches certain thresholds, additional research slots will unlock automatically; if your RP falls below a threshold, slots may be lost. Keep growing your industrial capacity to maintain or increase your research efficiency. Existing research slots above 2 are treated as Easy Research Slots with reduced RP thresholds instead of being permanently lost."
-  dynamic_research_startup_option:0 "Understood"
+  dynamic_research_startup_title:0 "Инициализация динамических ячеек исследований"
+  dynamic_research_startup_desc:0 "Динамические очки исследований теперь активны. Ваши заводы будут создавать очки исследований (RP) каждый день. Когда RP достигнут определенных пороговых значений - ячейки для исследований будут открыты автоматически; Если ваши RP опускаются ниже пороговых значений - ячейка для исследований будет потеряна. Продолжайте наращивать промышленный потенциал, чтобы поддерживать или повышать эффективность исследований. Существующие ячейки исследований больше 2 рассматриваются как лёгкие исследовательские ячейки с пониженными пороговыми значениями RP, а не теряются безвозвратно."
+  dynamic_research_startup_option:0 "Понятно!"
 
   # Custom game rules
-  RULE_GROUP_DYNAMIC_RESEARCH:0 "Dynamic Research"
+  RULE_GROUP_DYNAMIC_RESEARCH:0 "Динамические исследования"
 
   # Easy Research Slots (Base)
-  RULE_DR_EASY_SLOTS:0 "Easy Research Slots (Base)"
-  RULE_DR_EASY_SLOTS_DESC:0 "Controls how many additional Easy Research Slots each country starts with on top of the default behaviour. Easy slots are cheaper to maintain and require less Research Power to unlock."
+  RULE_DR_EASY_SLOTS:0 "Легкие ячейки исследований (Base)"
+  RULE_DR_EASY_SLOTS_DESC:0 "Управляет количеством дополнительных лёгких ячеек для исследований, доступных каждой стране в дополнение к стандартному поведению. Лёгкие ячейки дешевле в обслуживании и требуют меньше RP для разблокировки."
   
-  RULE_DR_EASY_SLOTS_DEFAULT:0 "Default"
-  RULE_DR_EASY_SLOTS_DEFAULT_DESC:0 "Use the original Dynamic Research Slots logic. Only research slots granted at game start or via focuses count as Easy Slots."
+  RULE_DR_EASY_SLOTS_DEFAULT:0 "По умолчанию"
+  RULE_DR_EASY_SLOTS_DEFAULT_DESC:0 "Используйте стандартную логику динамических исследовательских ячеек. Только исследовательские ячейки, предоставленные в начале игры или через фокусы, считаются лёгкими ячейками."
   
-  RULE_DR_EASY_SLOTS_PLUS_1:0 "+1 Easy Slot"
-  RULE_DR_EASY_SLOTS_PLUS_1_DESC:0 "Each country starts with one extra Easy Research Slot."
+  RULE_DR_EASY_SLOTS_PLUS_1:0 "+1 Лёгкая ячейка"
+  RULE_DR_EASY_SLOTS_PLUS_1_DESC:0 "Каждая страна начинает с одной дополнительной лёгкой ячейкой исследований."
   
-  RULE_DR_EASY_SLOTS_PLUS_2:0 "+2 Easy Slots"
-  RULE_DR_EASY_SLOTS_PLUS_2_DESC:0 "Each country starts with two extra Easy Research Slots."
+  RULE_DR_EASY_SLOTS_PLUS_2:0 "+2 Лёгкие ячейки"
+  RULE_DR_EASY_SLOTS_PLUS_2_DESC:0 "Каждая страна начинает с двумя дополнительной лёгкой ячейкой исследований."
   
-  RULE_DR_EASY_SLOTS_PLUS_3:0 "+3 Easy Slots"
-  RULE_DR_EASY_SLOTS_PLUS_3_DESC:0 "Each country starts with three extra Easy Slots."
+  RULE_DR_EASY_SLOTS_PLUS_3:0 "+3 Лёгкие ячейки"
+  RULE_DR_EASY_SLOTS_PLUS_3_DESC:0 "Каждая страна начинает с тремя дополнительными лёгкими ячейками исследований."
   
-  RULE_DR_EASY_SLOTS_PLUS_4:0 "+4 Easy Slots"
-  RULE_DR_EASY_SLOTS_PLUS_4_DESC:0 "Each country starts with four extra Easy Slots."
+  RULE_DR_EASY_SLOTS_PLUS_4:0 "+4 Лёгкие ячейки"
+  RULE_DR_EASY_SLOTS_PLUS_4_DESC:0 "Каждая страна начинает с четырьмя дополнительными лёгкими ячейками исследований."
   
-  RULE_DR_EASY_SLOTS_PLUS_5:0 "+5 Easy Slots"
-  RULE_DR_EASY_SLOTS_PLUS_5_DESC:0 "Each country starts with five extra Easy Slots."
+  RULE_DR_EASY_SLOTS_PLUS_5:0 "+5 Лёгких ячеек"
+  RULE_DR_EASY_SLOTS_PLUS_5_DESC:0 "Каждая страна начинает с пятью дополнительными лёгкими ячейками исследований."
 
   # Easy Slot RP Cost Factor
-  RULE_DR_EASY_COST:0 "Easy Slot RP Cost Factor"
-  RULE_DR_EASY_COST_DESC:0 "Controls how much Research Power Easy Slots require compared to normal slots. Lower values mean easier (cheaper) slots."
+  RULE_DR_EASY_COST:0 "Фактор стоимости RP для лёгких ячеек"
+  RULE_DR_EASY_COST_DESC:0 "Контролирует, сколько RP требуется для лёгких ячеек по сравнению с обычными. Чем ниже значение, тем проще (дешевле) ячейки."
   
-  RULE_DR_EASY_COST_10:0 "10% of normal cost"
-  RULE_DR_EASY_COST_10_DESC:0 "Easy Research Slots require only 10% of the normal Research Power."
+  RULE_DR_EASY_COST_10:0 "10% от нормальной стоимости"
+  RULE_DR_EASY_COST_10_DESC:0 "Лёгкие ячейки исследований требуют только 10% от стандартного RP."
   
-  RULE_DR_EASY_COST_20:0 "20% of normal cost"
-  RULE_DR_EASY_COST_20_DESC:0 "Easy Research Slots require 20% of the normal Research Power."
+  RULE_DR_EASY_COST_20:0 "20% от нормальной стоимости"
+  RULE_DR_EASY_COST_20_DESC:0 "Лёгкие ячейки исследований требуют только 20% от стандартного RP."
   
-  RULE_DR_EASY_COST_30:0 "30% of normal cost"
-  RULE_DR_EASY_COST_30_DESC:0 "Easy Research Slots require 30% of the normal Research Power."
+  RULE_DR_EASY_COST_30:0 "30% от нормальной стоимости"
+  RULE_DR_EASY_COST_30_DESC:0 "Лёгкие ячейки исследований требуют только 30% от стандартного RP."
   
-  RULE_DR_EASY_COST_40:0 "40% of normal cost"
-  RULE_DR_EASY_COST_40_DESC:0 "Easy Research Slots require 40% of the normal Research Power."
+  RULE_DR_EASY_COST_40:0 "40% от нормальной стоимости"
+  RULE_DR_EASY_COST_40_DESC:0 "Лёгкие ячейки исследований требуют только 40% от стандартного RP."
   
-  RULE_DR_EASY_COST_50:0 "50% of normal cost"
-  RULE_DR_EASY_COST_50_DESC:0 "Easy Research Slots require 50% of the normal Research Power."
+  RULE_DR_EASY_COST_50:0 "50% от нормальной стоимости"
+  RULE_DR_EASY_COST_50_DESC:0 "Лёгкие ячейки исследований требуют только 50% от стандартного RP."
   
-  RULE_DR_EASY_COST_60:0 "60% of normal cost (default)"
-  RULE_DR_EASY_COST_60_DESC:0 "Easy Research Slots require 60% of the normal Research Power. This matches the original mod behaviour."
+  RULE_DR_EASY_COST_60:0 "60% от нормальной стоимости"
+  RULE_DR_EASY_COST_60_DESC:0 "Лёгкие ячейки исследований требуют только 60% от стандартного RP. Это соответствует поведению оригинального мода."
   
-  RULE_DR_EASY_COST_70:0 "70% of normal cost"
-  RULE_DR_EASY_COST_70_DESC:0 "Easy Research Slots require 70% of the normal Research Power."
+  RULE_DR_EASY_COST_70:0 "70% от нормальной стоимости"
+  RULE_DR_EASY_COST_70_DESC:0 "Лёгкие ячейки исследований требуют только 70% от стандартного RP."
   
-  RULE_DR_EASY_COST_80:0 "80% of normal cost"
-  RULE_DR_EASY_COST_80_DESC:0 "Easy Research Slots require 80% of the normal Research Power."
+  RULE_DR_EASY_COST_80:0 "80% от нормальной стоимости"
+  RULE_DR_EASY_COST_80_DESC:0 "Лёгкие ячейки исследований требуют только 80% от стандартного RP."
   
-  RULE_DR_EASY_COST_90:0 "90% of normal cost"
-  RULE_DR_EASY_COST_90_DESC:0 "Easy Research Slots require 90% of the normal Research Power."
+  RULE_DR_EASY_COST_90:0 "90% от нормальной стоимости"
+  RULE_DR_EASY_COST_90_DESC:0 "Лёгкие ячейки исследований требуют только 90% от стандартного RP."
   
-  RULE_DR_EASY_COST_100:0 "100% of normal cost"
-  RULE_DR_EASY_COST_100_DESC:0 "Easy Research Slots require the full Research Power cost of a normal slot (no discount)."
+  RULE_DR_EASY_COST_100:0 "100% от нормальной стоимости"
+  RULE_DR_EASY_COST_100_DESC:0 "Лёгкие ячейки исследований требуют полную стоимость RP обычной ячейки (без скидки)."
 
   # Minor Nation Easy Slots
-  RULE_DR_MINOR_EASY_SLOTS:0 "Minor Nation Easy Slots"
-  RULE_DR_MINOR_EASY_SLOTS_DESC:0 "Controls whether non-major countries receive an additional Easy Research Slot to help them keep up technologically."
+  RULE_DR_MINOR_EASY_SLOTS:0 "Лёгкие ячейки для минорных стран"
+  RULE_DR_MINOR_EASY_SLOTS_DESC:0 "Контролирует, получат ли минорные страны дополнительный слот для исследований, чтобы помочь им идти в ногу со временем в технологическом плане."
   
-  RULE_DR_MINOR_EASY_SLOTS_OFF:0 "Disabled"
-  RULE_DR_MINOR_EASY_SLOTS_OFF_DESC:0 "Minor nations use the same Easy Slot baseline as major nations."
+  RULE_DR_MINOR_EASY_SLOTS_OFF:0 "Выключено"
+  RULE_DR_MINOR_EASY_SLOTS_OFF_DESC:0 "Минорные страны используют те же настройки лёгких ячеек исследований, что и страны-мажоры."
   
-  RULE_DR_MINOR_EASY_SLOTS_ON:0 "Enabled (no achievements)"
-  RULE_DR_MINOR_EASY_SLOTS_ON_DESC:0 "Non-major countries receive one additional Easy Research Slot. This makes the game slightly easier for minors and disables achievements."
+  RULE_DR_MINOR_EASY_SLOTS_ON:0 "Включено (без ачивок)"
+  RULE_DR_MINOR_EASY_SLOTS_ON_DESC:0 "Минорные страны получают одну дополнительную лёгкую ячейку исследования. Это немного упрощает игру за миноров и отключает достижения."
 
   # Factory RP Weights
-  RULE_DR_FACTORY_WEIGHTS:0 "Factory RP Weights"
-  RULE_DR_FACTORY_WEIGHTS_DESC:0 "Controls how much Research Power civilian, military and naval factories generate."
+  RULE_DR_FACTORY_WEIGHTS:0 "Значения RP от промышленности"
+  RULE_DR_FACTORY_WEIGHTS_DESC:0 "Контролирует, сколько RP генерируют гражданские фабрики, военные заводы и верфи."
   
-  RULE_DR_FACTORY_WEIGHTS_BALANCED:0 "Balanced (3 / 2 / 2)"
-  RULE_DR_FACTORY_WEIGHTS_BALANCED_DESC:0 "Civilian factories generate 3 RP each, military and naval factories 2 RP each."
+  RULE_DR_FACTORY_WEIGHTS_BALANCED:0 "Сбалансировано (3 / 2 / 2)"
+  RULE_DR_FACTORY_WEIGHTS_BALANCED_DESC:0 "Гражданские фабрики генерируют 3 RP каждая, военные заводы и верфи генерируют 2 RP каждый."
   
-  RULE_DR_FACTORY_WEIGHTS_INDUSTRY:0 "Industry-focused (4 / 2 / 1)"
-  RULE_DR_FACTORY_WEIGHTS_INDUSTRY_DESC:0 "Civilian factories generate 4 RP each, military factories 2 RP and naval dockyards 1 RP."
+  RULE_DR_FACTORY_WEIGHTS_INDUSTRY:0 "Индустриальный фокус (4 / 2 / 1)"
+  RULE_DR_FACTORY_WEIGHTS_INDUSTRY_DESC:0 "Гражданские фабрики генерируют 4 RP каждая, военные заводы 2 RP и верфи 1 RP."
   
-  RULE_DR_FACTORY_WEIGHTS_MILITARY:0 "Military-focused (2 / 4 / 2)"
-  RULE_DR_FACTORY_WEIGHTS_MILITARY_DESC:0 "Military factories generate 4 RP each, civilian and naval factories 2 RP each."
+  RULE_DR_FACTORY_WEIGHTS_MILITARY:0 "Военный фокус (2 / 4 / 2)"
+  RULE_DR_FACTORY_WEIGHTS_MILITARY_DESC:0 "Военные заводы генерируют 4 RP каждый, гражданские фабрики и верфи 2 RP каждый."
   
-  RULE_DR_FACTORY_WEIGHTS_NAVAL:0 "Naval-focused (2 / 2 / 4)"
-  RULE_DR_FACTORY_WEIGHTS_NAVAL_DESC:0 "Naval dockyards generate 4 RP each, civilian and military factories 2 RP each."
+  RULE_DR_FACTORY_WEIGHTS_NAVAL:0 "Морской фокус (2 / 2 / 4)"
+  RULE_DR_FACTORY_WEIGHTS_NAVAL_DESC:0 "Верфи генерируют 4 RP каждый, гражданские фабрики и военные заводы 2 RP каждый."
 
   # War-time Research Power
-  RULE_DR_WAR_RP:0 "War-time Research Power"
-  RULE_DR_WAR_RP_DESC:0 "Sets the maximum Research Power penalty while at war. The effective penalty scales with War Support, Stability, ruling party popularity, war duration and whether wars are offensive or defensive."
+  RULE_DR_WAR_RP:0 "RP в военное время"
+  RULE_DR_WAR_RP_DESC:0 "Устанавливает максимальный штраф к RP во время войны. Значения штрафа зависит от поддержки войны, стабильности, популярности правящей партии, продолжительности войны и того, является ли война наступательной или оборонительной."
   
-  RULE_DR_WAR_RP_OFF:0 "No change"
-  RULE_DR_WAR_RP_OFF_DESC:0 "War does not affect Research Power."
+  RULE_DR_WAR_RP_OFF:0 "Без изменений"
+  RULE_DR_WAR_RP_OFF_DESC:0 "Война не оказывает влияния на RP"
   
-  RULE_DR_WAR_RP_MINUS_5:0 "Max -5% RP in war"
-  RULE_DR_WAR_RP_MINUS_5_DESC:0 "Sets the maximum wartime penalty to -5% Research Power. The effective penalty is usually smaller and scales with internal conditions (War Support, Stability, ruling party, war duration, offensive/defensive wars)."
+  RULE_DR_WAR_RP_MINUS_5:0 "Максимально -5% RP во время войны"
+  RULE_DR_WAR_RP_MINUS_5_DESC:0 "Устанавливает максимальный штраф от войны -5% RP. Фактически, штраф обычно меньше и зависит от внутренних условий (поддержка войны, стабильность, правящая партия, продолжительность войны, наступательные/оборонительные войны)."
   
-  RULE_DR_WAR_RP_MINUS_10:0 "Max -10% RP in war (default)"
-  RULE_DR_WAR_RP_MINUS_10_DESC:0 "Sets the maximum wartime penalty to -10% Research Power (default). The effective penalty is usually smaller and scales with internal conditions (War Support, Stability, ruling party, war duration, offensive/defensive wars)."
+  RULE_DR_WAR_RP_MINUS_10:0 "Максимально -10% RP во время войны (по умолчанию)"
+  RULE_DR_WAR_RP_MINUS_10_DESC:0 "Устанавливает максимальный штраф от войны -10% RP. Фактически, штраф обычно меньше и зависит от внутренних условий (поддержка войны, стабильность, правящая партия, продолжительность войны, наступательные/оборонительные войны)."
   
-  RULE_DR_WAR_RP_MINUS_15:0 "Max -15% RP in war"
-  RULE_DR_WAR_RP_MINUS_15_DESC:0 "Sets the maximum wartime penalty to -15% Research Power. The effective penalty is usually smaller and scales with internal conditions (War Support, Stability, ruling party, war duration, offensive/defensive wars)."
+  RULE_DR_WAR_RP_MINUS_15:0 "Максимально -15% RP во время войны"
+  RULE_DR_WAR_RP_MINUS_15_DESC:0 "Устанавливает максимальный штраф от войны -15% RP. Фактически, штраф обычно меньше и зависит от внутренних условий (поддержка войны, стабильность, правящая партия, продолжительность войны, наступательные/оборонительные войны)."
   
-  RULE_DR_WAR_RP_MINUS_20:0 "Max -20% RP in war"
-  RULE_DR_WAR_RP_MINUS_20_DESC:0 "Sets the maximum wartime penalty to -20% Research Power. The effective penalty is usually smaller and scales with internal conditions (War Support, Stability, ruling party, war duration, offensive/defensive wars)."
+  RULE_DR_WAR_RP_MINUS_20:0 "Максимально -20% RP во время войны"
+  RULE_DR_WAR_RP_MINUS_20_DESC:0 "Устанавливает максимальный штраф от войны -20% RP. Фактически, штраф обычно меньше и зависит от внутренних условий (поддержка войны, стабильность, правящая партия, продолжительность войны, наступательные/оборонительные войны)."
   
-  RULE_DR_WAR_RP_MINUS_25:0 "Max -25% RP in war"
-  RULE_DR_WAR_RP_MINUS_25_DESC:0 "Sets the maximum wartime penalty to -25% Research Power. The effective penalty is usually smaller and scales with internal conditions (War Support, Stability, ruling party, war duration, offensive/defensive wars)."
+  RULE_DR_WAR_RP_MINUS_25:0 "Максимально -25% RP во время войны"
+  RULE_DR_WAR_RP_MINUS_25_DESC:0 "Устанавливает максимальный штраф от войны -25% RP. Фактически, штраф обычно меньше и зависит от внутренних условий (поддержка войны, стабильность, правящая партия, продолжительность войны, наступательные/оборонительные войны)."
   
-  RULE_DR_WAR_RP_MINUS_30:0 "Max -30% RP in war"
-  RULE_DR_WAR_RP_MINUS_30_DESC:0 "Sets the maximum wartime penalty to -30% Research Power. The effective penalty is usually smaller and scales with internal conditions (War Support, Stability, ruling party, war duration, offensive/defensive wars)."
+  RULE_DR_WAR_RP_MINUS_30:0 "Максимально -30% RP во время войны"
+  RULE_DR_WAR_RP_MINUS_30_DESC:0 "Устанавливает максимальный штраф от войны -30% RP. Фактически, штраф обычно меньше и зависит от внутренних условий (поддержка войны, стабильность, правящая партия, продолжительность войны, наступательные/оборонительные войны)."
 
   # Alliance Research Power
-  RULE_DR_ALLIANCE_RP:0 "Alliance Research Power"
-  RULE_DR_ALLIANCE_RP_DESC:0 "Sets the maximum Research Power bonus from faction members. Each ally can contribute up to 5% of its RP, scaled by relations, but the total alliance bonus is capped by this rule."
+  RULE_DR_ALLIANCE_RP:0 "RP во фракциях (союзах)"
+  RULE_DR_ALLIANCE_RP_DESC:0 "Устанавливает максимальный бонус к RP для членов фракции. Каждый член фракции может внести до 5% своего RP, масштабируемого по уровню отношений, но общий бонус фракции ограничен этим правилом."
   
-  RULE_DR_ALLIANCE_RP_OFF:0 "No bonus"
-  RULE_DR_ALLIANCE_RP_OFF_DESC:0 "Being in a faction does not grant any alliance Research Power bonus."
+  RULE_DR_ALLIANCE_RP_OFF:0 "Без бонуса"
+  RULE_DR_ALLIANCE_RP_OFF_DESC:0 "Принадлежность к фракции не дает никаких бонусов к RP фракции."
   
-  RULE_DR_ALLIANCE_RP_PLUS_5:0 "Max +5% RP from allies"
-  RULE_DR_ALLIANCE_RP_PLUS_5_DESC:0 "Alliance bonuses can provide up to +5% Research Power from faction members (each ally up to 5% of its RP, scaled by relations, capped at +5% total)."
+  RULE_DR_ALLIANCE_RP_PLUS_5:0 "Максимально +5% RP от союзников"
+  RULE_DR_ALLIANCE_RP_PLUS_5_DESC:0 "Бонусы фракции могут обеспечить до +5% RP от членов фракции (каждый союзник до 5% от своего RP, масштабируется в зависимости от отношений, но не более +5% в общей сложности)."
   
-  RULE_DR_ALLIANCE_RP_PLUS_10:0 "Max +10% RP from allies (default)"
-  RULE_DR_ALLIANCE_RP_PLUS_10_DESC:0 "Alliance bonuses can provide up to +10% Research Power from faction members (default). Each ally can contribute up to 5% of its RP, scaled by relations, capped at +10% total."
+  RULE_DR_ALLIANCE_RP_PLUS_10:0 "Максимально +10% RP от союзников (по умолчанию)"
+  RULE_DR_ALLIANCE_RP_PLUS_10_DESC:0 "Бонусы фракции могут обеспечить до +10% RP от членов фракции (каждый союзник до 5% от своего RP, масштабируется в зависимости от отношений, но не более +10% в общей сложности)."
   
-  RULE_DR_ALLIANCE_RP_PLUS_15:0 "Max +15% RP from allies"
-  RULE_DR_ALLIANCE_RP_PLUS_15_DESC:0 "Alliance bonuses can provide up to +15% Research Power from faction members (each ally up to 5% of its RP, scaled by relations, capped at +15% total)."
+  RULE_DR_ALLIANCE_RP_PLUS_15:0 "Максимально +15% RP от союзников"
+  RULE_DR_ALLIANCE_RP_PLUS_15_DESC:0 "Бонусы фракции могут обеспечить до +15% RP от членов фракции (каждый союзник до 5% от своего RP, масштабируется в зависимости от отношений, но не более +15% в общей сложности)."
   
-  RULE_DR_ALLIANCE_RP_PLUS_20:0 "Max +20% RP from allies"
-  RULE_DR_ALLIANCE_RP_PLUS_20_DESC:0 "Alliance bonuses can provide up to +20% Research Power from faction members (each ally up to 5% of its RP, scaled by relations, capped at +20% total)."
+  RULE_DR_ALLIANCE_RP_PLUS_20:0 "Максимально +20% RP от союзников"
+  RULE_DR_ALLIANCE_RP_PLUS_20_DESC:0 "Бонусы фракции могут обеспечить до +20% RP от членов фракции (каждый союзник до 5% от своего RP, масштабируется в зависимости от отношений, но не более +20% в общей сложности)."
   
-  RULE_DR_ALLIANCE_RP_PLUS_25:0 "Max +25% RP from allies"
-  RULE_DR_ALLIANCE_RP_PLUS_25_DESC:0 "Alliance bonuses can provide up to +25% Research Power from faction members (each ally up to 5% of its RP, scaled by relations, capped at +25% total)."
+  RULE_DR_ALLIANCE_RP_PLUS_25:0 "Максимально +25% RP от союзников"
+  RULE_DR_ALLIANCE_RP_PLUS_25_DESC:0 "Бонусы фракции могут обеспечить до +25% RP от членов фракции (каждый союзник до 5% от своего RP, масштабируется в зависимости от отношений, но не более +25% в общей сложности)."
   
-  RULE_DR_ALLIANCE_RP_PLUS_30:0 "Max +30% RP from allies"
-  RULE_DR_ALLIANCE_RP_PLUS_30_DESC:0 "Alliance bonuses can provide up to +30% Research Power from faction members (each ally up to 5% of its RP, scaled by relations, capped at +30% total)."
+  RULE_DR_ALLIANCE_RP_PLUS_30:0 "Максимально +30% RP от союзников"
+  RULE_DR_ALLIANCE_RP_PLUS_30_DESC:0 "Бонусы фракции могут обеспечить до +30% RP от членов фракции (каждый союзник до 5% от своего RP, масштабируется в зависимости от отношений, но не более +30% в общей сложности)."
 
   # Law-based Research Power Modifiers
-  RULE_DR_LAW_RP:0 "Law-based Research Power Modifiers"
-  RULE_DR_LAW_RP_DESC:0 "Controls whether trade, economy and conscription laws modify Research Power (RP). When disabled, law changes no longer affect RP - only factories, facilities, war-time and alliance rules apply."
+  RULE_DR_LAW_RP:0 "Модификаторы RP, основанные на законах"
+  RULE_DR_LAW_RP_DESC:0 "Управляет тем, влияют ли законы торговли, экономики и воинской повинности на RP. При отключении эти законы больше не влияют на исследовательскую мощь — применяются только правила заводов, предприятий, военного времени и фракций."
   
-  RULE_DR_LAW_RP_ON:0 "Enabled (default)"
-  RULE_DR_LAW_RP_ON_DESC:0 "Keep all existing Research Power modifiers from trade laws (e.g. Free Trade), economy laws (e.g. Civilian Economy, War Economy) and conscription laws (e.g. Extensive Conscription)."
+  RULE_DR_LAW_RP_ON:0 "Включено (по умолчанию)"
+  RULE_DR_LAW_RP_ON_DESC:0 "Сохраните все существующие модификаторы RP из законов о торговле (например, «Свободная торговля»), законов об экономике (например, «Гражданская экономика», «Военная экономика») и законов о воинской повинности (например, «Всеобщая воинская повинность»."
   
-  RULE_DR_LAW_RP_OFF:0 "Disabled"
-  RULE_DR_LAW_RP_OFF_DESC:0 "Ignore all Research Power modifiers from trade, economy and conscription laws. This makes RP depend only on factories, facilities and other Dynamic Research rules."
+  RULE_DR_LAW_RP_OFF:0 "Отключено"
+  RULE_DR_LAW_RP_OFF_DESC:0 "Игнорировать все модификаторы RP, связанные с законами о торговле, экономике и воинской повинности. Это делает RP зависящей только от фабрик, предприятий и других правил динамических исследований."
